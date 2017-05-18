@@ -1,0 +1,17 @@
+name: fast-server
+version: 0.1.0
+
+authors:
+  - Ignacio Del Nardo <ignacioguerra111@gmail.com>
+
+targets:
+  fast-server:
+    main: src/fast-server.cr
+
+dependencies:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+crystal: 0.22.0
+
+license: MIT
